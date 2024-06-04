@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "RNEConfigDemo",
+    "slug": "R_N_E_onfig_Demo",
+    "owner": "Jonathon Kindle",
+    "privacy": "hidden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/favicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jonathonkindle.RNEConfigDemo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "package": "com.jonathonkindle.RNEConfigDemo"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "description": "First React Native Expo app that I have modified the app.json file",
+    "updates": {
+      "enabled": true
+    }
+  }
+}
